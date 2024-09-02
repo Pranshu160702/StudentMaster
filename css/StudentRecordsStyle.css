@@ -1,0 +1,201 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+
+body 
+{
+    margin: 5px;
+    color: Black;    
+}
+
+.header
+{
+    margin-left: 500px;
+    font-size: 35px;
+    font-family: Imprint MT Shadow;
+    font-weight: bolder;
+}
+
+.gridview
+{
+    text-align: center;
+    border: 2px solid White;
+}
+
+.gridview th
+{
+    color: White;
+    background-color: #ff2b2b;
+    padding: 20px;  
+}
+
+#ID
+{
+    width: 50px;    
+}
+
+.gridview tr
+{
+    color: Black;
+    background-color: White; 
+}
+
+.editBtn
+{
+    width: 80%;
+    margin: 5px;
+    background-color: #66f74f;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 7px;
+    color: Black;
+    font-weight: bold;
+    transition: ease-in-out all 200ms;
+}
+
+.editBtn:hover
+{
+    width: 93%;
+    background-color: #4e564d;
+    border: 1px solid white;
+    color: White;
+    border-radius: 15px;
+}
+
+.deleteBtn
+{
+    width: 80%;
+    margin: 5px;
+    background-color: #3ac0fe;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 7px;
+    color: Black;
+    font-weight: bold;
+    transition: ease-in-out all 200ms;
+}
+
+.deleteBtn:hover
+{
+    width: 93%;    
+    background-color: #4e564d;
+    border: 1px solid white;
+    color: White;
+    border-radius: 15px;
+}
+
+.printBtn
+{
+    width: 80%;
+    margin: 5px;
+    background-color: #AFD0CE;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 7px;
+    color: Black;
+    font-weight: bold;
+    transition: ease-in-out all 200ms; 
+}
+
+.printBtn:hover
+{
+    width: 93%;    
+    background-color: #4e564d;
+    border: 1px solid white;
+    color: White;
+    border-radius: 15px;
+}
+
+.searchPanel
+{
+    height: 250px;
+    width: 1000px;
+    border-radius: 20px;
+    border: 2px solid #ff2b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 40px;
+    margin-left: 150px;
+}
+
+.Labels
+{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.Inputs
+{
+    height: 30px;
+    width: 280px;
+    margin-left: 15px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding-left: 20px;
+    color: black;    
+}
+
+.ddls
+{
+    height: 35px;    
+    width: 305px;
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right:0px;
+    padding-left: 20px;
+}
+
+.ddls:hover
+{
+    border-radius: 20px;
+    background-color: Black;
+    color: White;
+    transition: 400ms ease-in-out all;
+}
+
+.search, .export
+{
+    height: 37px;
+    width: 210px;
+    margin: 5px;
+    background-color: Black;
+    color: White;
+    border: 2px solid white;  
+    border-radius: 5px;
+}
+
+.search
+{
+    margin-left: 25px;
+}
+
+.search:hover, .export:hover
+{
+    background-color: White;
+    color: #132855;
+    border: 2px solid black;
+    transition: all ease-in-out 200ms;
+    border-radius: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.norecords
+{
+    color: #949494;
+    margin-left: 525px;
+    font-size: 20px;
+}

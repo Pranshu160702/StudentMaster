@@ -1,0 +1,96 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+.maindivstyle
+{
+    background-color: Red;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;    
+    gap: 20px;
+}
+
+h1
+{
+    font-family: Verdana;
+    font-size: 130px;    
+    -webkit-text-stroke: 4px Black;
+    color: transparent;
+    font-weight: bold;
+}
+h2
+{
+    font-family: Sans-Serif;    
+}
+
+
+/*
+span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+}
+span a
+{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .35s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#cntryM:before,
+#cntryM:after
+{
+    content: "Country Master";    
+}
+
+#stM:before,
+#stM:after
+{
+    content: "State Master";    
+}
+
+#citM:before,
+#citM:after
+{
+    content: "City Master";    
+}
+
+span a:before,
+span a:after{
+    position: absolute;
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+span a:before{
+    color: #fff;
+    background: #4C00EE;
+    transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+    color: #4C00EE;
+    transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+*/

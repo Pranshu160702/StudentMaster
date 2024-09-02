@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="NagarNigamVB.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type="text/javascript" src="Scripts/jquery-1.4.1-vsdoc.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" href="css/MasterPageStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="topnav">
+        <img src="StudentImages/NAVBARLOGO.png" alt="LOGO" height="48px" />
+        <a href="~/StudentLogin.aspx" runat="server"><asp:Label ID="loginLbl" runat="server" Text="Log In"></asp:Label></a>
+        <a href="~/Dashboard.aspx" runat="server">Dashboard</a>
+        <div class="topnav-right">
+            <a href="~/CountryMaster.aspx" runat="server">Country Master</a> <a href="~/StateMaster.aspx"
+                runat="server">State Master</a> <a href="~/CityMaster.aspx" runat="server">City Master</a>
+            <a href="~/StudentRegistration.aspx" runat="server">Student Registration</a>
+            <a href="~/StudentRecords.aspx" runat="server">Student Records</a>
+            <div class="main">
+                <label class="menu-button-wrapper" for="">
+                    <input type="checkbox" class="menu-button"/>
+                    <div class="icon-wrapper">
+                        <label class="hamburger">
+                            <input class="hamburger-input" type="checkbox"/>
+                            <span class="hamburger-line first"></span><span class="hamburger-line second"></span>
+                            <span class="hamburger-line third"></span>
+                        </label>
+                    </div>
+                    <div class="item-list">
+                        <asp:Button ID="cwa" CssClass="reportBtns" runat="server" Text="Country Wise Analysis Report" />
+                        <asp:Button ID="swa" CssClass="reportBtns" runat="server" Text="State Wise Analysis Report" />
+                        <asp:Button ID="ciwa" CssClass="reportBtns" runat="server" Text="City Wise Analysis Report" />
+                        <asp:Button ID="gwa" CssClass="reportBtns" runat="server" Text="Gender Wise Analysis Report" />
+                </label>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

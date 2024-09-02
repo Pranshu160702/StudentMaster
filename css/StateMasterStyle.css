@@ -1,0 +1,173 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+
+body 
+{
+    background-image: url("/css/background.jpg");
+    margin: 10px;
+    color: Black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.header
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.state,.shortn{
+    height: 30px;
+    width: 280px;
+    margin-left: 15px;    
+    border: 2px solid black;
+    background-color: transparent;
+    padding-left: 20px;
+    color: black;
+}
+
+.state
+{
+    margin-left: 16px;
+}
+
+.state:focus,.shortn:focus,.state:hover,.shortn:hover
+{
+    border-radius: 20px;
+    background-color: White;
+    color: #132855;
+    transition: all ease-in-out 200ms;
+}
+
+.rq1,.rq2
+{
+    position: absolute;
+    right: 240px;
+    color: Red;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: -15px;    
+}
+
+.rq1
+{
+    right: 242px;    
+    top: 240px;
+}
+
+.rq2
+{
+    top: 295px;
+}
+
+.save,.exit
+{
+    height: 35px;
+    width: 150px;
+    margin: 5px;
+    background-color: Black;
+    color: White;
+    border: 2px solid white;
+}
+
+.save:hover,.exit:hover
+{
+    background-color: White;
+    color: #132855;
+    border: 2px solid black;
+    transition: all ease-in-out 200ms;
+    border-radius: 20px;
+}
+
+.records
+{
+    text-align: center;
+    border: 2px solid White;
+}
+
+.records th
+{
+    color: White;
+    background-color: #ff2b2b;
+    padding: 20px;  
+}
+
+.records tr
+{
+    color: Black;
+    background-color: White; 
+}
+
+.editBtn
+{
+    width: 50%;
+    margin: 5px;
+    background-color: #66f74f;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 7px;
+    color: Black;
+    font-weight: bold;
+    transition: ease-in-out all 200ms;
+}
+
+.editBtn:hover
+{
+    width: 93%;
+    background-color: #4e564d;
+    border: 1px solid white;
+    color: White;
+    border-radius: 15px;
+}
+
+.deleteBtn
+{
+    width: 50%;
+    margin: 5px;
+    background-color: #3ac0fe;
+    border: 1px solid white;
+    font-size: 14px;
+    padding: 7px;
+    color: Black;
+    font-weight: bold;
+    transition: ease-in-out all 200ms;
+}
+
+.deleteBtn:hover
+{
+    width: 93%;    
+    background-color: #4e564d;
+    border: 1px solid white;
+    color: White;
+    border-radius: 15px;
+}
+
+.countryLbl
+{
+    margin-left: -32px;
+}
+
+.countryDDL
+{
+    width: 305px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 15px;
+    margin-right:0px;
+    padding-left: 15px;
+}
+
+.countryDDL:hover
+{
+    border-radius: 20px;
+    background-color: Black;
+    color: White;
+    transition: 400ms ease-in-out all;
+}

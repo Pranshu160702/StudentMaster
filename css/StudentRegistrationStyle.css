@@ -1,0 +1,178 @@
+﻿*
+{
+    font-family: Gill Sans MT;
+    font-size : 18px;
+}
+
+body
+{
+    background-image: url("/css/studentBackground.jpg");
+    background-size: cover;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #310d0d;
+}
+
+.form-container
+{
+    height: auto;
+    width: 60vw;
+    margin: 20px;
+    align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    margin-left: 15vw;
+}
+
+.form-group
+{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    float: left;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header
+{
+    font-family: Verdana;
+    -webkit-text-stroke: 2px Black;    
+    color: White;
+    margin-left: 8%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.form-control
+{
+    height: 30px;
+    width: 280px;
+    margin-left: 15px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding-left: 20px;
+    color: black;
+}
+
+.form-control:focus, .form-control:hover
+{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #132855;
+    transition: all ease-in-out 200ms;
+}
+
+.address-form-control
+{
+    height: 30px;
+    width: 280px;
+    margin-left: 15px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding-left: 20px;
+    color: black;
+}
+
+.address-form-control:focus, .address-form-control:hover
+{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #132855;
+    transition: all ease-in-out 200ms;
+}
+
+.address-form-control
+{
+    height: 80px;
+    width: 80%;    
+    padding-top: 10px;
+}
+
+.save,.exit,.clear,.fetch
+{
+    height: 35px;
+    width: 180px;
+    margin: 5px;
+    background-color: Black;
+    color: White;
+    border: 2px solid Black;
+    border-radius: 10px;
+}
+
+.save:hover,.exit:hover,.clear:hover,.fetch:hover
+{
+    background-color: White;
+    color: #132855;
+    border: 2px solid black;
+    transition: all ease-in-out 200ms;
+    border-radius: 20px;
+    scale: 1.1;
+    box-shadow: 0 0 30px rgba(255,255,255,1);    
+}
+
+input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+         display: none;
+}
+
+.stu_image
+{
+    color: transparent;
+    width: 200px;
+}
+
+.stu_image::file-selector-button
+{
+  font-size: 20px;
+  width: 200px;
+  height: 70px;
+  background-color: #0066b2;
+  background-size: 200%;
+  border: 0px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 1rem 1.25rem;
+}
+
+.stu_image::file-selector-button:hover 
+{
+  background-color: White;
+  color: Black;  
+  transition: all ease-in-out 300ms;
+}
+
+.imageControl
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 125px;
+    align-items: center;
+}
+
+.btnUpload
+{
+    background-color: 	#A020F0;
+    width: 200px;
+    color: White;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnUpload:hover 
+{
+  background-color: White;
+  color: Black;  
+  transition: all ease-in-out 300ms;
+}

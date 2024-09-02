@@ -1,0 +1,54 @@
+﻿body 
+{
+    width: 97vw;
+    color: Black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.header
+{
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.gridsContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items:center;
+}
+
+.gridHolder
+{
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px; 
+    gap: 70px;
+}
+
+.gridview
+{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid bLACK;
+}
+
+.gridview th
+{
+    color: White;
+    background-color: #ff2b2b;
+    padding: 20px;  
+}   
+
+.gridview tr
+{
+    color: Black;
+    background-color: White; 
+    padding: 10px;
+}
